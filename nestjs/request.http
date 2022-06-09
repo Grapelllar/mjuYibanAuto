@@ -1,0 +1,12 @@
+### Get all new user
+GET http://localhost:3000/user/list
+
+
+### Create a user
+POST http://localhost:3000/user
+Content-Type: application/json
+
+{
+    "userID":"123456",
+    "password":"123456"
+}
